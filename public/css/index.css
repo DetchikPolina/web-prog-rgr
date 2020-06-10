@@ -1,0 +1,145 @@
+h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
+footer{
+    height: 70px;
+}
+
+.nav-wrapper, footer{
+    background-color: #1a237e;
+    opacity: 0.9;
+}
+.item{
+    padding-left: 30px;
+}
+.item-link{
+    font-size: 18px;
+}
+.item-link:hover{
+    color: #a4a4a2;
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.parallax-container{
+    height: 300px;
+}
+.rgr{
+    text-align: right;
+    color: #FFFFFF;
+    padding: 20px 10px 0 0;
+    font-size: 16px;
+    font-style: italic;
+}
+.cards{
+    padding: 40px 0 40px 0;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+.card{
+    height: 400px;
+    width: 400px;
+}
+.article{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.content h2{
+    padding: 15px 0;
+}
+.content p{
+    text-indent: 15px;
+}
+.content img{
+    width: 60%;
+    margin-left: 250px;
+}
+.content ul{
+    padding-left: 20px;
+}
+.def{
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.login {
+    margin: 151px auto;
+    width: 280px;
+}
+
+.auto {
+    margin: 143px auto;
+}
+.login form input {
+    height: 50px;
+}
+
+.login form input{
+    background-color: #ffffff;
+    border-radius: 0px 3px 3px 0px;
+    color: #606468;
+    margin-bottom: 1em;
+    padding: 0 16px;
+}
+
+.login form input:focus {
+    color: #606468;
+}
+
+.login form input[type="submit"] {
+    background-color: #3f51b5;
+    border-radius: 10px;
+    color: #eee;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    cursor:pointer;
+    width: 280px;
+    height: 50px;
+    border: 0;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #3f51b5;
+}
+
+.login > p {
+    text-align: center;
+}
+
+.login > p span {
+    padding-left: 5px;
+}
+.comments{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+.comment{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+.users_login{
+    color: #3f51b5;
+}
+.comment_text{
+    font-size: 16px;
+}
+.comment_btn{
+    background-color: #3f51b5;
+    border-radius: 10px;
+    color: #eee;
+    text-transform: uppercase;
+    cursor:pointer;
+    width: 180px;
+    height: 40px;
+    border: 0;
+}

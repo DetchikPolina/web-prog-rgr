@@ -1,0 +1,31 @@
+{
+  "name": "web_prog_rgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-layout": "^0.1.0",
+    "hbs": "^4.1.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-localstorage": "^2.1.6",
+    "pg": "^8.2.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,19 @@
+<div class="login auto">
+    <form action="/registration" method="POST">
+        <fieldset>
+            <p><span class=""></span><input type="text" name="login" value="Логин"
+                                            onBlur="if(this.value == '') this.value = 'Логин'"
+                                            onFocus="if(this.value == 'Логин') this.value = ''" required></p>
+            <p><span class=""></span><input type="password" name="password" value="Пароль"
+                                            onBlur="if(this.value == '') this.value = 'Пароль'"
+                                            onFocus="if(this.value == 'Пароль') this.value = ''" required></p>
+            <p><span class=""></span><input type="password" name="repeated_password" value="Пароль"
+                                            onBlur="if(this.value == '') this.value = 'Пароль'"
+                                            onFocus="if(this.value == 'Пароль') this.value = ''" required></p>
+            <p><input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ"></p>
+        </fieldset>
+    </form>
+
+    {{msg}}
+
+</div>
